@@ -48,25 +48,42 @@
         .span12
           .container.fluid
             .row.fluid
-              .span3
+              .span4
                 .well.sidebar-nav
                   %ul.nav.nav-list
                
                     %li.nav-header 
-                      %a{:href => "/xhosp/index.html"} xHosp
+                      %a{:href => "/xhosp/videosh.html"} Videos xHosp
                     %li
-                      %a{:href => "/xhosp/caracteristicash.html"} Características Generales
+                      %a{:href => "/pages/vcaracteristicas.html"} Características Especiales
                     %li
-                      %a{:href => "/xhosp/modulosh.html"} Módulos
+                      %a{:href => "/pages/vadmisiondepacientes.html"} Admisión de Pacientes
                     %li
-                      %a{:href => "/xhosp/funcionalidadh.html"} Funcionalidad
+                      %a{:href => "/pages/vfacturacion.html"} Facturación y caja general
                     %li
-                      %a{:href => "/xhosp/xHosp.pdf"}
-                        Obtenga información PDF
+                      %a{:href => "/pages/vlaboratorio.html"} Laboratorio de Análisis Clínico
                     %li
-                      %a{:href => "/xhosp/videosh.html"} Videos de demostración
+                      %a{:href => "/pages/vadministracion.html"} Administración
                     %li
-                      %a{:href => "/xhosp/contactoh.html"} Solicite Información
+                      %a{:href => "/pages/vfarmacia.html"} Control de Farmacia
+                    %li
+                      %a{:href => "/pages/vcentralenfermeria.html"} Area de atención a hospitalizados
+                    %li
+                      %a{:href => "/pages/vtransferencia.html"} Transferencia y Egresos
+                    %li
+                      %a{:href => "/pages/vcontrolcuartos.html"} Censo y Control de Cuartos
+                    %li
+                      %a{:href => "/pages/vcargocuartos.html"} Cargo Automático de Cuartos
+                    %li
+                      %a{:href => "/pages/vquirofano.html"} Programa y control de quirófano
+                        
+                    
+                    
+                    
+
+
+                %a.btn.btn-large.btn-primary{:href => "/xhosp/index.html"}
+                  Ir a xHosp
                 %a.btn.btn-large.btn-primary{:href => "/xlab/index.html"}
                   Ir a xLab
                 %a.btn.btn-large.btn-primary{:href => "/xray/index.html"}
@@ -74,7 +91,7 @@
                 .imgs
                   %img{:src => "/images/xhosp.jpg", :alt => "Virtus Medical"}
                 
-              .span8.offset1
+              .span7
                 = yield
 
               
